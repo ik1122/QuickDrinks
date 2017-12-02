@@ -11,9 +11,8 @@
       "scale" : "3x"
     },
     {
-      "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "chorgiappimage.png",
+      "size" : "29x29",
       "scale" : "2x"
     },
     {
@@ -34,7 +33,7 @@
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "chorgiappicon120.png",
+      "filename" : "drinksicon120-1.png",
       "scale" : "2x"
     },
     {
@@ -86,6 +85,11 @@
       "idiom" : "ipad",
       "size" : "83.5x83.5",
       "scale" : "2x"
+    },
+    {
+      "idiom" : "ios-marketing",
+      "size" : "1024x1024",
+      "scale" : "1x"
     }
   ],
   "info" : {

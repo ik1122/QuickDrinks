@@ -31,6 +31,7 @@
 		FF2E4DC01FB7C46500D3C35D /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E4DBE1FB7C46500D3C35D /* Group.swift */; };
 		FF2E4DC11FB7C46500D3C35D /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E4DBF1FB7C46500D3C35D /* GroupTableViewCell.swift */; };
 		FF48C8EC1FB7A79E00812AE7 /* CreateChoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48C8EB1FB7A79E00812AE7 /* CreateChoreViewController.swift */; };
+		FFEEFD6F1FD32BBB00619DCD /* GetInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEEFD6E1FD32BBB00619DCD /* GetInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		FF2E4DBE1FB7C46500D3C35D /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		FF2E4DBF1FB7C46500D3C35D /* GroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
 		FF48C8EB1FB7A79E00812AE7 /* CreateChoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateChoreViewController.swift; sourceTree = "<group>"; };
+		FFEEFD6E1FD32BBB00619DCD /* GetInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				55902E5C1FD2CED1000CEA4A /* RestaurantsTableViewCell.swift */,
 				FF48C8EB1FB7A79E00812AE7 /* CreateChoreViewController.swift */,
 				336A277E1FB6701B00419E0E /* Chore.swift */,
+				FFEEFD6E1FD32BBB00619DCD /* GetInfo.swift */,
 				55902E5A1FD2CDAA000CEA4A /* Restaurant.swift */,
 				339F54641FAE8CB000346119 /* Assets.xcassets */,
 				55902E6C1FD2E7E0000CEA4A /* drinksicon120.png */,
@@ -326,6 +329,7 @@
 				FF48C8EC1FB7A79E00812AE7 /* CreateChoreViewController.swift in Sources */,
 				55902E5B1FD2CDAA000CEA4A /* Restaurant.swift in Sources */,
 				55902E591FD2CD2C000CEA4A /* RetaurantsViewController.swift in Sources */,
+				FFEEFD6F1FD32BBB00619DCD /* GetInfo.swift in Sources */,
 				336A277D1FB661EE00419E0E /* ChoreViewController.swift in Sources */,
 				55902E5D1FD2CED1000CEA4A /* RestaurantsTableViewCell.swift in Sources */,
 				FF2E4DC11FB7C46500D3C35D /* GroupTableViewCell.swift in Sources */,

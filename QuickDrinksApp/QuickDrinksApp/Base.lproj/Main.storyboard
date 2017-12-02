@@ -97,7 +97,7 @@
             </objects>
             <point key="canvasLocation" x="-2586" y="67"/>
         </scene>
-        <!--Chore Details-->
+        <!--Drink Details-->
         <scene sceneID="EGa-cn-OJY">
             <objects>
                 <viewController storyboardIdentifier="ChoreVC" id="4GJ-43-TPx" customClass="ChoreViewController" customModule="QuickDrinksApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -127,14 +127,14 @@
                                 <color key="textColor" red="0.52513617277145386" green="0.54203450679779053" blue="0.49630057811737061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rwt-xp-l4r">
-                                <rect key="frame" x="24" y="129" width="272" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rwt-xp-l4r">
+                                <rect key="frame" x="24" y="129" width="272" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DescriptionText" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PU-ca-IMt">
-                                <rect key="frame" x="24" y="158" width="272" height="100"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PU-ca-IMt">
+                                <rect key="frame" x="24" y="137" width="272" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="YpX-Sg-p5c"/>
                                 </constraints>
@@ -143,7 +143,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTh-5c-HcB">
-                                <rect key="frame" x="24" y="290" width="272" height="30"/>
+                                <rect key="frame" x="24" y="269" width="272" height="30"/>
                                 <color key="backgroundColor" red="0.52228443944436542" green="0.75174060880829019" blue="0.44404561786283003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="GHb-FX-6ec"/>
@@ -173,9 +173,12 @@
                             <constraint firstItem="hTh-5c-HcB" firstAttribute="leading" secondItem="JdO-YX-rBI" secondAttribute="leadingMargin" constant="8" id="xGx-xu-RBG"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Chore Details" id="Lmm-Cn-jBD"/>
+                    <navigationItem key="navigationItem" title="Drink Details" id="Lmm-Cn-jBD"/>
                     <connections>
-                        <outlet property="descriptionlabel" destination="8PU-ca-IMt" id="U99-7i-4aO"/>
+                        <outlet property="Drink" destination="yQV-9Z-oUt" id="IqZ-3l-wU8"/>
+                        <outlet property="descriptionlabel" destination="8PU-ca-IMt" id="dtw-5c-EwX"/>
+                        <outlet property="nameLabel" destination="yQV-9Z-oUt" id="yvK-Yd-3nX"/>
+                        <outlet property="priceLabel" destination="zjF-Uj-1wI" id="For-ns-B6O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Px-5g-hYi" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -202,6 +205,7 @@
         <!--Restaurants-->
         <scene sceneID="hAv-6d-Q14">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nOy-at-mNc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="O11-bu-K1I" customClass="RestaurantsViewController" customModule="QuickDrinksApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="PJH-EX-7tF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -238,7 +242,6 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Restaurants" id="vzp-QO-eD5"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nOy-at-mNc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-746.25" y="66.549295774647888"/>
         </scene>
@@ -277,7 +280,7 @@
             </objects>
             <point key="canvasLocation" x="34" y="67"/>
         </scene>
-        <!--Groups-->
+        <!--Orders-->
         <scene sceneID="BSH-Lh-Zby">
             <objects>
                 <tableViewController id="VAD-yh-I3Q" customClass="GroupViewController" customModule="QuickDrinksApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -314,7 +317,7 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Track Orders" id="PaF-wl-yaH"/>
-                    <navigationItem key="navigationItem" title="Groups" id="dnu-aR-J03"/>
+                    <navigationItem key="navigationItem" title="Orders" id="dnu-aR-J03"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SK8-18-lDB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -337,7 +340,7 @@
             </objects>
             <point key="canvasLocation" x="846" y="405"/>
         </scene>
-        <!--To-Do List-->
+        <!--Drinks-->
         <scene sceneID="Tfh-7d-Y4c">
             <objects>
                 <tableViewController storyboardIdentifier="ToDoVC" id="kJ7-iV-4NV" customClass="ToDoViewController" customModule="QuickDrinksApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -354,7 +357,14 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBx-oM-Xew">
-                                            <rect key="frame" x="43" y="0.0" width="262" height="21"/>
+                                            <rect key="frame" x="43" y="0.0" width="156" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFq-KL-J4H">
+                                            <rect key="frame" x="207" y="2" width="76" height="18"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -365,7 +375,8 @@
                                 <connections>
                                     <outlet property="cell" destination="aHi-mD-r3t" id="gOH-fR-nIi"/>
                                     <outlet property="nameLabel" destination="GBx-oM-Xew" id="AIM-SJ-6Oe"/>
-                                    <segue destination="4GJ-43-TPx" kind="show" id="Sp4-kj-cUT"/>
+                                    <outlet property="priceLabel" destination="QFq-KL-J4H" id="P3g-a7-UAS"/>
+                                    <segue destination="4GJ-43-TPx" kind="show" identifier="test" id="Sp4-kj-cUT"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -375,7 +386,10 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Drinks" id="x09-tg-ReV"/>
-                    <navigationItem key="navigationItem" title="To-Do List" id="rFW-4h-OBF"/>
+                    <navigationItem key="navigationItem" title="Drinks" id="rFW-4h-OBF"/>
+                    <connections>
+                        <outlet property="ToDoTableView" destination="yje-Px-yfL" id="5rq-b1-EfE"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S9R-xZ-HQJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

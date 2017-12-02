@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ChOrganizeApp
+@testable import QuickDrinksApp
 
 class ChOrganizeAppTests: XCTestCase {
     

@@ -15,9 +15,37 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "339F54571FAE8CB000346119"
-               BuildableName = "ChOrganizeApp.app"
-               BlueprintName = "ChOrganizeApp"
-               ReferencedContainer = "container:ChOrganizeApp.xcodeproj">
+               BuildableName = "QuickDrinksApp.app"
+               BlueprintName = "QuickDrinksApp"
+               ReferencedContainer = "container:QuickDrinksApp.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "339F546D1FAE8CB100346119"
+               BuildableName = "QuickDrinksAppTests.xctest"
+               BlueprintName = "QuickDrinksAppTests"
+               ReferencedContainer = "container:QuickDrinksApp.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "339F54781FAE8CB100346119"
+               BuildableName = "QuickDrinksAppUITests.xctest"
+               BlueprintName = "QuickDrinksAppUITests"
+               ReferencedContainer = "container:QuickDrinksApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +56,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "339F546D1FAE8CB100346119"
-               BuildableName = "ChOrganizeAppTests.xctest"
-               BlueprintName = "ChOrganizeAppTests"
-               ReferencedContainer = "container:ChOrganizeApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "339F54781FAE8CB100346119"
-               BuildableName = "ChOrganizeAppUITests.xctest"
-               BlueprintName = "ChOrganizeAppUITests"
-               ReferencedContainer = "container:ChOrganizeApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "339F54571FAE8CB000346119"
-            BuildableName = "ChOrganizeApp.app"
-            BlueprintName = "ChOrganizeApp"
-            ReferencedContainer = "container:ChOrganizeApp.xcodeproj">
+            BuildableName = "QuickDrinksApp.app"
+            BlueprintName = "QuickDrinksApp"
+            ReferencedContainer = "container:QuickDrinksApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +84,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "339F54571FAE8CB000346119"
-            BuildableName = "ChOrganizeApp.app"
-            BlueprintName = "ChOrganizeApp"
-            ReferencedContainer = "container:ChOrganizeApp.xcodeproj">
+            BuildableName = "QuickDrinksApp.app"
+            BlueprintName = "QuickDrinksApp"
+            ReferencedContainer = "container:QuickDrinksApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -90,16 +98,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "339F54571FAE8CB000346119"
-            BuildableName = "ChOrganizeApp.app"
-            BlueprintName = "ChOrganizeApp"
-            ReferencedContainer = "container:ChOrganizeApp.xcodeproj">
+            BuildableName = "QuickDrinksApp.app"
+            BlueprintName = "QuickDrinksApp"
+            ReferencedContainer = "container:QuickDrinksApp.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

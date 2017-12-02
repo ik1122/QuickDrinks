@@ -48,7 +48,7 @@
 		336A277A1FB65FD900419E0E /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
 		336A277C1FB661EE00419E0E /* ChoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoreViewController.swift; sourceTree = "<group>"; };
 		336A277E1FB6701B00419E0E /* Chore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chore.swift; sourceTree = "<group>"; };
-		339F54581FAE8CB000346119 /* ChOrganizeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChOrganizeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		339F54581FAE8CB000346119 /* QuickDrinksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuickDrinksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		339F545B1FAE8CB000346119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		339F545D1FAE8CB000346119 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 		339F545F1FAE8CB000346119 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
@@ -56,10 +56,10 @@
 		339F54641FAE8CB000346119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		339F54671FAE8CB000346119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		339F54691FAE8CB000346119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		339F546E1FAE8CB100346119 /* ChOrganizeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChOrganizeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		339F546E1FAE8CB100346119 /* QuickDrinksAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickDrinksAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		339F54721FAE8CB100346119 /* ChOrganizeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChOrganizeAppTests.swift; sourceTree = "<group>"; };
 		339F54741FAE8CB100346119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		339F54791FAE8CB100346119 /* ChOrganizeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChOrganizeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		339F54791FAE8CB100346119 /* QuickDrinksAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickDrinksAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		339F547D1FAE8CB100346119 /* ChOrganizeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChOrganizeAppUITests.swift; sourceTree = "<group>"; };
 		339F547F1FAE8CB100346119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33CB1A511FB78EA3006F941D /* chorgilogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chorgilogo.png; path = ImageFiles/chorgilogo.png; sourceTree = SOURCE_ROOT; };
@@ -97,9 +97,9 @@
 		339F544F1FAE8CB000346119 = {
 			isa = PBXGroup;
 			children = (
-				339F545A1FAE8CB000346119 /* ChOrganizeApp */,
-				339F54711FAE8CB100346119 /* ChOrganizeAppTests */,
-				339F547C1FAE8CB100346119 /* ChOrganizeAppUITests */,
+				339F545A1FAE8CB000346119 /* QuickDrinksApp */,
+				339F54711FAE8CB100346119 /* QuickDrinksAppTests */,
+				339F547C1FAE8CB100346119 /* QuickDrinksAppUITests */,
 				339F54591FAE8CB000346119 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -107,14 +107,14 @@
 		339F54591FAE8CB000346119 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				339F54581FAE8CB000346119 /* ChOrganizeApp.app */,
-				339F546E1FAE8CB100346119 /* ChOrganizeAppTests.xctest */,
-				339F54791FAE8CB100346119 /* ChOrganizeAppUITests.xctest */,
+				339F54581FAE8CB000346119 /* QuickDrinksApp.app */,
+				339F546E1FAE8CB100346119 /* QuickDrinksAppTests.xctest */,
+				339F54791FAE8CB100346119 /* QuickDrinksAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		339F545A1FAE8CB000346119 /* ChOrganizeApp */ = {
+		339F545A1FAE8CB000346119 /* QuickDrinksApp */ = {
 			isa = PBXGroup;
 			children = (
 				339F545B1FAE8CB000346119 /* AppDelegate.swift */,
@@ -134,33 +134,33 @@
 				33CB1A531FB78EDB006F941D /* chorgibroom.png */,
 				339F54691FAE8CB000346119 /* Info.plist */,
 			);
-			path = ChOrganizeApp;
+			path = QuickDrinksApp;
 			sourceTree = "<group>";
 		};
-		339F54711FAE8CB100346119 /* ChOrganizeAppTests */ = {
+		339F54711FAE8CB100346119 /* QuickDrinksAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				339F54721FAE8CB100346119 /* ChOrganizeAppTests.swift */,
 				339F54741FAE8CB100346119 /* Info.plist */,
 			);
-			path = ChOrganizeAppTests;
+			path = QuickDrinksAppTests;
 			sourceTree = "<group>";
 		};
-		339F547C1FAE8CB100346119 /* ChOrganizeAppUITests */ = {
+		339F547C1FAE8CB100346119 /* QuickDrinksAppUITests */ = {
 			isa = PBXGroup;
 			children = (
 				339F547D1FAE8CB100346119 /* ChOrganizeAppUITests.swift */,
 				339F547F1FAE8CB100346119 /* Info.plist */,
 			);
-			path = ChOrganizeAppUITests;
+			path = QuickDrinksAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		339F54571FAE8CB000346119 /* ChOrganizeApp */ = {
+		339F54571FAE8CB000346119 /* QuickDrinksApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 339F54821FAE8CB100346119 /* Build configuration list for PBXNativeTarget "ChOrganizeApp" */;
+			buildConfigurationList = 339F54821FAE8CB100346119 /* Build configuration list for PBXNativeTarget "QuickDrinksApp" */;
 			buildPhases = (
 				339F54541FAE8CB000346119 /* Sources */,
 				339F54551FAE8CB000346119 /* Frameworks */,
@@ -170,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = ChOrganizeApp;
+			name = QuickDrinksApp;
 			productName = ChOrganizeApp;
-			productReference = 339F54581FAE8CB000346119 /* ChOrganizeApp.app */;
+			productReference = 339F54581FAE8CB000346119 /* QuickDrinksApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		339F546D1FAE8CB100346119 /* ChOrganizeAppTests */ = {
+		339F546D1FAE8CB100346119 /* QuickDrinksAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 339F54851FAE8CB100346119 /* Build configuration list for PBXNativeTarget "ChOrganizeAppTests" */;
+			buildConfigurationList = 339F54851FAE8CB100346119 /* Build configuration list for PBXNativeTarget "QuickDrinksAppTests" */;
 			buildPhases = (
 				339F546A1FAE8CB100346119 /* Sources */,
 				339F546B1FAE8CB100346119 /* Frameworks */,
@@ -188,14 +188,14 @@
 			dependencies = (
 				339F54701FAE8CB100346119 /* PBXTargetDependency */,
 			);
-			name = ChOrganizeAppTests;
+			name = QuickDrinksAppTests;
 			productName = ChOrganizeAppTests;
-			productReference = 339F546E1FAE8CB100346119 /* ChOrganizeAppTests.xctest */;
+			productReference = 339F546E1FAE8CB100346119 /* QuickDrinksAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		339F54781FAE8CB100346119 /* ChOrganizeAppUITests */ = {
+		339F54781FAE8CB100346119 /* QuickDrinksAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 339F54881FAE8CB100346119 /* Build configuration list for PBXNativeTarget "ChOrganizeAppUITests" */;
+			buildConfigurationList = 339F54881FAE8CB100346119 /* Build configuration list for PBXNativeTarget "QuickDrinksAppUITests" */;
 			buildPhases = (
 				339F54751FAE8CB100346119 /* Sources */,
 				339F54761FAE8CB100346119 /* Frameworks */,
@@ -206,9 +206,9 @@
 			dependencies = (
 				339F547B1FAE8CB100346119 /* PBXTargetDependency */,
 			);
-			name = ChOrganizeAppUITests;
+			name = QuickDrinksAppUITests;
 			productName = ChOrganizeAppUITests;
-			productReference = 339F54791FAE8CB100346119 /* ChOrganizeAppUITests.xctest */;
+			productReference = 339F54791FAE8CB100346119 /* QuickDrinksAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +219,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = "Pusheen Code";
+				ORGANIZATIONNAME = CS117;
 				TargetAttributes = {
 					339F54571FAE8CB000346119 = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -237,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 339F54531FAE8CB000346119 /* Build configuration list for PBXProject "ChOrganizeApp" */;
+			buildConfigurationList = 339F54531FAE8CB000346119 /* Build configuration list for PBXProject "QuickDrinksApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -250,9 +250,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				339F54571FAE8CB000346119 /* ChOrganizeApp */,
-				339F546D1FAE8CB100346119 /* ChOrganizeAppTests */,
-				339F54781FAE8CB100346119 /* ChOrganizeAppUITests */,
+				339F54571FAE8CB000346119 /* QuickDrinksApp */,
+				339F546D1FAE8CB100346119 /* QuickDrinksAppTests */,
+				339F54781FAE8CB100346119 /* QuickDrinksAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -325,12 +325,12 @@
 /* Begin PBXTargetDependency section */
 		339F54701FAE8CB100346119 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 339F54571FAE8CB000346119 /* ChOrganizeApp */;
+			target = 339F54571FAE8CB000346119 /* QuickDrinksApp */;
 			targetProxy = 339F546F1FAE8CB100346119 /* PBXContainerItemProxy */;
 		};
 		339F547B1FAE8CB100346119 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 339F54571FAE8CB000346119 /* ChOrganizeApp */;
+			target = 339F54571FAE8CB000346119 /* QuickDrinksApp */;
 			targetProxy = 339F547A1FAE8CB100346119 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -454,9 +454,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ChOrganizeApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/QuickDrinksApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Pusheen.ChOrganizeApp;
+				PRODUCT_BUNDLE_IDENTIFIER = CS117.QuickDrinksApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -466,9 +466,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ChOrganizeApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/QuickDrinksApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Pusheen.ChOrganizeApp;
+				PRODUCT_BUNDLE_IDENTIFIER = CS117.QuickDrinksApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -484,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Pusheen.ChOrganizeAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChOrganizeApp.app/ChOrganizeApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickDrinksApp.app/QuickDrinksApp";
 			};
 			name = Debug;
 		};
@@ -498,7 +498,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Pusheen.ChOrganizeAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChOrganizeApp.app/ChOrganizeApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuickDrinksApp.app/QuickDrinksApp";
 			};
 			name = Release;
 		};
@@ -531,7 +531,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		339F54531FAE8CB000346119 /* Build configuration list for PBXProject "ChOrganizeApp" */ = {
+		339F54531FAE8CB000346119 /* Build configuration list for PBXProject "QuickDrinksApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				339F54801FAE8CB100346119 /* Debug */,
@@ -540,7 +540,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		339F54821FAE8CB100346119 /* Build configuration list for PBXNativeTarget "ChOrganizeApp" */ = {
+		339F54821FAE8CB100346119 /* Build configuration list for PBXNativeTarget "QuickDrinksApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				339F54831FAE8CB100346119 /* Debug */,
@@ -549,7 +549,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		339F54851FAE8CB100346119 /* Build configuration list for PBXNativeTarget "ChOrganizeAppTests" */ = {
+		339F54851FAE8CB100346119 /* Build configuration list for PBXNativeTarget "QuickDrinksAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				339F54861FAE8CB100346119 /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		339F54881FAE8CB100346119 /* Build configuration list for PBXNativeTarget "ChOrganizeAppUITests" */ = {
+		339F54881FAE8CB100346119 /* Build configuration list for PBXNativeTarget "QuickDrinksAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				339F54891FAE8CB100346119 /* Debug */,

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="AppleSDGothicNeo.ttc">
+            <string>AppleSDGothicNeo-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Login View Controller-->
         <scene sceneID="GJe-AQ-mOa">
             <objects>
-                <viewController storyboardIdentifier="LoginVC" id="RJ4-53-sgV" customClass="LoginViewController" customModule="ChOrganizeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginVC" id="RJ4-53-sgV" customClass="LoginViewController" customModule="QuickDrinksApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iU7-AG-ef0"/>
                         <viewControllerLayoutGuide type="bottom" id="u7M-cS-iUJ"/>
@@ -103,7 +108,7 @@
         <!--Chore Details-->
         <scene sceneID="EGa-cn-OJY">
             <objects>
-                <viewController storyboardIdentifier="ChoreVC" id="4GJ-43-TPx" customClass="ChoreViewController" customModule="ChOrganizeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChoreVC" id="4GJ-43-TPx" customClass="ChoreViewController" customModule="QuickDrinksApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="A8s-vX-kGS"/>
                         <viewControllerLayoutGuide type="bottom" id="KSk-yP-Bqy"/>
@@ -226,7 +231,6 @@
                 <navigationController id="JAU-qd-lK4" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="To-Do List" id="nVm-wi-U6c"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vCn-Ax-YHH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -265,7 +269,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GroupTableViewCell" rowHeight="90" id="z8q-a0-pWM" customClass="GroupTableViewCell" customModule="ChOrganizeApp" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GroupTableViewCell" rowHeight="90" id="z8q-a0-pWM" customClass="GroupTableViewCell" customModule="QuickDrinksApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="320" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="z8q-a0-pWM" id="7fy-Rv-Ybh">
@@ -302,7 +306,7 @@
         <!--Create a Chore-->
         <scene sceneID="4Fm-qI-rYS">
             <objects>
-                <viewController storyboardIdentifier="CreateChoreVC" id="OWK-7j-1UY" customClass="CreateChoreViewController" customModule="ChOrganizeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CreateChoreVC" id="OWK-7j-1UY" customClass="CreateChoreViewController" customModule="QuickDrinksApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xn7-iD-7ab"/>
                         <viewControllerLayoutGuide type="bottom" id="G1H-C4-Wzp"/>
@@ -462,7 +466,6 @@
                 <navigationController id="eeR-Nf-RXo" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Groups" id="qfL-lz-VhP"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3gh-lL-aqt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -476,13 +479,13 @@
         <!--To-Do List-->
         <scene sceneID="Tfh-7d-Y4c">
             <objects>
-                <tableViewController storyboardIdentifier="ToDoVC" id="kJ7-iV-4NV" customClass="ToDoViewController" customModule="ChOrganizeApp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="ToDoVC" id="kJ7-iV-4NV" customClass="ToDoViewController" customModule="QuickDrinksApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="yje-Px-yfL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToDoTableViewCell" rowHeight="90" id="wE9-a9-E1j" customClass="ToDoTableViewCell" customModule="ChOrganizeApp" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToDoTableViewCell" rowHeight="90" id="wE9-a9-E1j" customClass="ToDoTableViewCell" customModule="QuickDrinksApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="320" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wE9-a9-E1j" id="aHi-mD-r3t">

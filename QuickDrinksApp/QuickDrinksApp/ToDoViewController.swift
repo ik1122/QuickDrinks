@@ -13,8 +13,8 @@ class ToDoViewController: UITableViewController {
     var chores = [Chore]()
 
     private func loadToDoList() {
-        let chore1 = Chore(name: "Chore Example")
-        let chore2 = Chore(name: "Chore 2")
+        let chore1 = Chore(name: "Drink Example")
+        let chore2 = Chore(name: "Drink 2")
         chores.insert(chore1!,at: 0)
         chores.insert(chore2!, at: 1)
     }

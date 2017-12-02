@@ -8,15 +8,15 @@
 
 import UIKit
 
-class GroupViewController: UITableViewController {
-
-    var groups = [Group]()
+class RestaurantsViewController: UITableViewController {
+    
+    var restaurants = [Restaurant]()
     
     private func loadToDoList() {
-        let group1 = Group(name: "Order Example")
-        let group2 = Group(name: "Order 2")
-        groups.insert(group1!,at: 0)
-        groups.insert(group2!, at: 1)
+        let restaurant1 = Restaurant(name: "Restaurant Example")
+        let restaurant2 = Restaurant(name: "Restaurant 2")
+        restaurants.insert(restaurant1!,at: 0)
+        restaurants.insert(restaurant2!, at: 1)
     }
     
     //    func numberOfSections(in tableView: UITableView) -> Int
@@ -29,15 +29,15 @@ class GroupViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return groups.count
+        return restaurants.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "GroupTableViewCell", for: indexPath) as? GroupTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "RestaurantsTableViewCell", for: indexPath) as? RestaurantsTableViewCell
         
-        let group = groups[indexPath.row]
+        let restaurant = restaurants[indexPath.row]
         
-        cell!.nameLabel.text = group.name
+        cell!.nameLabel.text = restaurant.name
         
         return cell!
     }
@@ -57,4 +57,5 @@ class GroupViewController: UITableViewController {
     
     
 }
+
 

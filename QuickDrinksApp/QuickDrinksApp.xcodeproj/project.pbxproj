@@ -27,6 +27,7 @@
 		55902E691FD2E452000CEA4A /* photo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 55902E681FD2E451000CEA4A /* photo5.png */; };
 		55902E6B1FD2E53F000CEA4A /* photo6.png in Resources */ = {isa = PBXBuildFile; fileRef = 55902E6A1FD2E53E000CEA4A /* photo6.png */; };
 		55902E6D1FD2E7E0000CEA4A /* drinksicon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 55902E6C1FD2E7E0000CEA4A /* drinksicon120.png */; };
+		55902E751FD2FA61000CEA4A /* photo10.png in Resources */ = {isa = PBXBuildFile; fileRef = 55902E741FD2FA61000CEA4A /* photo10.png */; };
 		FF2E4DC01FB7C46500D3C35D /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E4DBE1FB7C46500D3C35D /* Group.swift */; };
 		FF2E4DC11FB7C46500D3C35D /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2E4DBF1FB7C46500D3C35D /* GroupTableViewCell.swift */; };
 		FF48C8EC1FB7A79E00812AE7 /* CreateChoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48C8EB1FB7A79E00812AE7 /* CreateChoreViewController.swift */; };
@@ -76,6 +77,7 @@
 		55902E681FD2E451000CEA4A /* photo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo5.png; path = ImageFiles/photo5.png; sourceTree = SOURCE_ROOT; };
 		55902E6A1FD2E53E000CEA4A /* photo6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo6.png; path = ImageFiles/photo6.png; sourceTree = SOURCE_ROOT; };
 		55902E6C1FD2E7E0000CEA4A /* drinksicon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = drinksicon120.png; path = Assets.xcassets/AppIcon.appiconset/drinksicon120.png; sourceTree = "<group>"; };
+		55902E741FD2FA61000CEA4A /* photo10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photo10.png; path = ImageFiles/photo10.png; sourceTree = SOURCE_ROOT; };
 		FF2E4DBE1FB7C46500D3C35D /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		FF2E4DBF1FB7C46500D3C35D /* GroupTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
 		FF48C8EB1FB7A79E00812AE7 /* CreateChoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateChoreViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				339F54661FAE8CB000346119 /* LaunchScreen.storyboard */,
 				55902E6A1FD2E53E000CEA4A /* photo6.png */,
 				339F54611FAE8CB000346119 /* Main.storyboard */,
+				55902E741FD2FA61000CEA4A /* photo10.png */,
 				55902E681FD2E451000CEA4A /* photo5.png */,
 				55902E581FD2CD2C000CEA4A /* RetaurantsViewController.swift */,
 				55902E5C1FD2CED1000CEA4A /* RestaurantsTableViewCell.swift */,
@@ -286,6 +289,7 @@
 				33CB1A521FB78EA3006F941D /* chorgilogo.png in Resources */,
 				339F54651FAE8CB000346119 /* Assets.xcassets in Resources */,
 				339F54631FAE8CB000346119 /* Main.storyboard in Resources */,
+				55902E751FD2FA61000CEA4A /* photo10.png in Resources */,
 				33CB1A541FB78EDB006F941D /* chorgibroom.png in Resources */,
 				55902E6D1FD2E7E0000CEA4A /* drinksicon120.png in Resources */,
 			);

@@ -13,8 +13,8 @@ class GroupViewController: UITableViewController {
     var groups = [Group]()
     
     private func loadToDoList() {
-        let group1 = Group(name: "Group Example")
-        let group2 = Group(name: "Group 2")
+        let group1 = Group(name: "Order Example")
+        let group2 = Group(name: "Order 2")
         groups.insert(group1!,at: 0)
         groups.insert(group2!, at: 1)
     }

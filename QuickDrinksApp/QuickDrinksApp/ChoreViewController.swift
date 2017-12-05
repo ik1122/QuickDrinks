@@ -16,7 +16,7 @@ class ChoreViewController: UIViewController {
     @IBOutlet weak var Drink: UILabel!
 
     @IBAction func completechore(_ sender: Any) {
-        let alert = UIAlertController(title: "Order now?", message: "Confirm Purchase", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Order now?", message: "Confirm Order", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .`default`, handler: { _ in
             //TODO: Mark chore as completed, change background color to green.
             let url = NSURL(string: "http://quickdrinks.000webhostapp.com/receive.php") // locahost MAMP - change to point to your database server
@@ -24,17 +24,19 @@ class ChoreViewController: UIViewController {
             var request = URLRequest(url: url! as URL)
             request.httpMethod = "POST"
             
-            var dataString = "secretWord=44fdcv8jf3" // starting POST string with a secretWord
+            //var dataString = "secretWord=44fdcv8jf3" // starting POST string with a secretWord
             
             // the POST string has entries separated by &
             
-            dataString = "&Drink=\(self.Drink.text!)"
+            let dataString = "&drink=\(self.Drink.text!)"
+            //let dataString = "\(self.Drink.text!)"
                 print(self.Drink.text ?? "a")
+                print(dataString)
             // add items as name and value
             // convert the post string to utf8 format
             
             let dataD = dataString.data(using: .utf8) // convert to utf8 string
-            
+                print(dataD ?? "dataD")
             do
             {
                 
@@ -97,12 +99,12 @@ class ChoreViewController: UIViewController {
             //let TabBarVC = storyboard.instantiateViewController(withIdentifier: "TabBarController") as! UITabBarController
             //let appDelegate = UIApplication.shared.delegate as! AppDelegate
             //appDelegate.window?.rootViewController = TabBarVC
-           //3 let NavBarVC = storyboard.instantiateViewController(withIdentifier: "NavBarController") as! UINavigationController
-           //2 let appDelegate = UIApplication.shared.delegate as! AppDelegate
+           let NavBarVC = storyboard.instantiateViewController(withIdentifier: "NavBarController") as! UINavigationController
+           let appDelegate = UIApplication.shared.delegate as! AppDelegate
             
             
             //appDelegate.window?.rootViewController = TabBarVC
-           //1 appDelegate.window?.rootViewController = NavBarVC
+            appDelegate.window?.rootViewController = NavBarVC
         }))
         alert.addAction(UIAlertAction(title: NSLocalizedString("Cancel", comment: "Cancel"), style: .cancel, handler: { _ in
             NSLog("The \"Cancel\" alert occured.")

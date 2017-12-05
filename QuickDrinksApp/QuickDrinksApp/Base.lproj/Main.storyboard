@@ -205,7 +205,6 @@
         <!--Restaurants-->
         <scene sceneID="hAv-6d-Q14">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nOy-at-mNc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="O11-bu-K1I" customClass="RestaurantsViewController" customModule="QuickDrinksApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="PJH-EX-7tF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -242,6 +241,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Restaurants" id="vzp-QO-eD5"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nOy-at-mNc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-746.25" y="66.549295774647888"/>
         </scene>
@@ -297,7 +297,14 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VOG-mi-M6m">
-                                            <rect key="frame" x="21" y="0.0" width="248" height="21"/>
+                                            <rect key="frame" x="21" y="0.0" width="143" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="status" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bP2-qd-RTa">
+                                            <rect key="frame" x="172" y="0.0" width="140" height="21"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
@@ -308,6 +315,7 @@
                                 <connections>
                                     <outlet property="cell" destination="7fy-Rv-Ybh" id="KnD-F5-87J"/>
                                     <outlet property="nameLabel" destination="VOG-mi-M6m" id="dQC-n6-0ZW"/>
+                                    <outlet property="statusLabel" destination="bP2-qd-RTa" id="dTv-JN-Bdl"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -318,6 +326,9 @@
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Track Orders" id="PaF-wl-yaH"/>
                     <navigationItem key="navigationItem" title="Orders" id="dnu-aR-J03"/>
+                    <connections>
+                        <outlet property="GroupTableView" destination="yBc-ue-BZf" id="VRU-2P-FXn"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SK8-18-lDB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -10,9 +10,11 @@ import UIKit
 
 class ToDoTableViewCell: UITableViewCell {
 
+
     //MARK: Properties
     @IBOutlet weak var cell: UIView!
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

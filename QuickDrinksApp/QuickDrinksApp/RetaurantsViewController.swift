@@ -9,14 +9,13 @@
 import UIKit
 
 class RestaurantsViewController: UITableViewController {
-    
     var restaurants = [Restaurant]()
     
     private func loadToDoList() {
-        let restaurant1 = Restaurant(name: "Restaurant Example")
-        let restaurant2 = Restaurant(name: "Restaurant 2")
+        let restaurant1 = Restaurant(name: "restaurant 1")
+        //let restaurant2 = Restaurant(name: "restaurant 2")
         restaurants.insert(restaurant1!,at: 0)
-        restaurants.insert(restaurant2!, at: 1)
+       // restaurants.insert(restaurant2!, at: 1)
     }
     
     //    func numberOfSections(in tableView: UITableView) -> Int
@@ -38,7 +37,6 @@ class RestaurantsViewController: UITableViewController {
         let restaurant = restaurants[indexPath.row]
         
         cell!.nameLabel.text = restaurant.name
-        
         return cell!
     }
     
@@ -54,6 +52,8 @@ class RestaurantsViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+        
     
     
 }

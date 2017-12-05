@@ -8,13 +8,23 @@
 
 import UIKit
 
-class Chore {
-    init?(name: String) {
-        if name.isEmpty {
-            return nil
-        }
+class Chore: NSObject{
+    init?(name: String, price: String) {
+        //if name.isEmpty {
+          //  return nil
+        //}
         self.name = name
+        self.price = price
     }
     
-    var name: String
+    var name: String?
+    var price: String?
+    override init()
+    {
+    
+    }
+    
+    override var description: String {
+        return "Name: \(name), Price: \(price)"
+    }
 }

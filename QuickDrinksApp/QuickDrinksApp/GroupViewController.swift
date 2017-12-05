@@ -8,53 +8,63 @@
 
 import UIKit
 
-class GroupViewController: UITableViewController {
-
-    var groups = [Group]()
+class GroupViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, GetOrderInfo  {
     
-    private func loadToDoList() {
-        let group1 = Group(name: "Order Example")
-        let group2 = Group(name: "Order 2")
-        groups.insert(group1!,at: 0)
-        groups.insert(group2!, at: 1)
-    }
-    
-    //    func numberOfSections(in tableView: UITableView) -> Int
-    //    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
-    //    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
-    //
-    
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-    
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return groups.count
-    }
-    
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "GroupTableViewCell", for: indexPath) as? GroupTableViewCell
-        
-        let group = groups[indexPath.row]
-        
-        cell!.nameLabel.text = group.name
-        
-        return cell!
-    }
+    //Properties
+    var feedItems: NSArray = NSArray()
+    var selectedChore : Group = Group()
+    //@IBOutlet weak var ToDoTableView: UITableView!
+    //@IBOutlet var GroupTableView: UITableView!
+    @IBOutlet var GroupTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
+        //set delegates and initialize homeModel
         
-        loadToDoList()
+        self.GroupTableView.delegate = self
+        self.GroupTableView.dataSource = self
+        
+        let orderInfo = OrderInfo()
+        orderInfo.delegate = self
+        orderInfo.downloadItems()
+        
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func itemsDownloaded(items: NSArray) {
+        
+        feedItems = items
+        self.GroupTableView.reloadData()
     }
     
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // Return the number of feed items
+        return feedItems.count
+        
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        // Retrieve cell
+        // let cellIdentifier: String = "ToDoTableViewCell"
+        let cell = tableView.dequeueReusableCell(withIdentifier: "GroupTableViewCell", for: indexPath) as? GroupTableViewCell
+        // Get the location to be shown
+        let item: Group = feedItems[indexPath.row] as! Group
+        // Get references to labels of cell
+        cell!.nameLabel.text = item.name
+        cell!.statusLabel.text = item.status
+        
+        return cell!
+    }
+    //    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    //        let cell = tableView.dequeueReusableCell(withIdentifier: "ToDoTableViewCell", for: indexPath) as? ToDoTableViewCell
+    //
+    //        let chore = chores[indexPath.row]
+    //
+    //        cell!.nameLabel.text = chore.name
+    //
+    //        return cell!
+    //    }
+
     
 }
-
